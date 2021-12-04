@@ -1,18 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+//Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
+//Router Import
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+//Pages Imports
+import Home from "./Pages/home";
+import Login from "./Pages/login";
+import SignUp from "./Pages/sign-up";
 
 function App() {
   return (
     <div>
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-        crossorigin="anonymous"
-      />
-      <p className='h1'>
-        The BootStrap Works
-      </p>
+      <Routes>
+        <Route path='/' exact component={<Home />} />
+        <Route path='/login' component={<Login />} />
+
+        <Route path='/signup' exact component={<SignUp />} />
+      </Routes>
     </div>
   );
 }
