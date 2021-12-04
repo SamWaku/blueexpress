@@ -1,7 +1,11 @@
+//Components
+import TopNav from "../Components/Layout/top-nav";
+import {Link} from 'react-router-dom';
+
 function Home(){
     return(
         <div>
-            Home Page
+            <TopNav />
         </div>
     )
 }
