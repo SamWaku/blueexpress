@@ -1,6 +1,10 @@
+import LoginForm from "../Components/login-form";
+
 function Login(){
     return(
-        <div>User Login Page</div>
+        <div>
+            <LoginForm/>
+        </div>
     )
 }
 

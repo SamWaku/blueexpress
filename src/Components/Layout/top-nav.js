@@ -3,7 +3,7 @@ import './nav.css';
 //Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.min.css';
 //ReactStrap JS
-import {Container, Navbar, Collapse, Nav} from 'react-bootstrap';
+import {Container, Navbar, Nav} from 'react-bootstrap';
 function TopNav() {
     return (
         <div>
