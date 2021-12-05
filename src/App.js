@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 //Bootstrap CSS
 import Home from './Pages/home';

@@ -8,7 +8,7 @@ import Login from "./Pages/login";
 import SignUp from "./Pages/sign-up";
 import Notifications from './Pages/Notifications';
 import UserProfile from "./Pages/user-profile";
-import AboutUs from "./Pages/about-us";
+import AboutUs from "./Pages/about-page";
 
 const rootElement = document.getElementById("root");
 render(
@@ -20,6 +20,7 @@ render(
       <Route path="/login" element={<Login />} />
       <Route path="/user-profile" element={<UserProfile />} />
       <Route path="/notifications" element={<Notifications />} />
+      
     </Routes>
   </BrowserRouter>,
   rootElement
