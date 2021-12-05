@@ -1,5 +1,5 @@
 import '../Components/footer.css';
-import { Link } from 'react-router-dom';
+import { a } from 'react-router-dom';
 function About() {
     return (
         <footer className="bd-footer py-5 mt-5 bg-dark aos-item " >
@@ -12,32 +12,32 @@ function About() {
                     </div>
                     <div className="col-6 col-lg-2 offset-lg-1 mb-3">
                         <p className='header-text'>About us</p>
-                        <ul className="list-unstyled">
-                            <li className="mb-2"><Link to="/">Terms & Conditions</Link></li>
-                            <li className="mb-2"><Link to="/docs/5.0/">Help</Link></li>
-                            <li className="mb-2"><Link to="/docs/5.0/examples/">How it works</Link></li>
+                        <ul >
+                            <li className="mb-2"><a href="/" className='a'>Terms & Conditions</a></li>
+                            <li className="mb-2"><a href="/docs/5.0/" className='a'>Help</a></li>
+                            <li className="mb-2"><a href="/docs/5.0/examples/" className='a'>How it works</a></li>
                         </ul>
                     </div>
                     <div className="col-6 col-lg-2 mb-3">
-                        <p className='header-text'>Shopping Seervices</p>
-                        <ul className="list-unstyled">
-                            <li className="mb-2"><a href="https://www.shopeasywholesale.com">Shopeasy</a></li>
-                            <li className="mb-2"><a href="https://www.nalumall.com">Nalu Mall</a></li>
+                        <p className='header-text'>Shopping Services</p>
+                        <ul >
+                            <li className="mb-2"><a href="https://www.shopeasywholesale.com" className='a'>Shopeasy</a></li>
+                            <li className="mb-2"><a href="https://www.nalumall.com" className='a'>Nalu Mall</a></li>
                         </ul>
                     </div>
                     <div className="col-6 col-lg-2 mb-3">
                         <p className='header-text'>Follow us</p>
-                        <ul className="list-unstyled">
-                            <li className="mb-2"><Link to="/">Facebook</Link></li>
-                            <li className="mb-2"><Link to="/">Instagram</Link></li>
-                            <li className="mb-2"><Link to="/">Twitter</Link></li>
+                        <ul >
+                            <li className="mb-2"><a href="/" className='a'>Facebook</a></li>
+                            <li className="mb-2"><a href="/" className='a'>Instagram</a></li>
+                            <li className="mb-2"><a href="/" className='a'>Twitter</a></li>
                         </ul>
                     </div>
                     <div className="col-6 col-lg-2 mb-3">
                         <p className='header-text'>Contact us</p>
-                        <ul className="list-unstyled">
-                            <li className="mb-2"><Link to="/">+260</Link></li>
-                            <li className="mb-2"><Link to="/">info@blueexpress.com</Link></li>
+                        <ul >
+                            <li className="mb-2"><a href="/" className='a'>+260</a></li>
+                            <li className="mb-2"><a href="/" className='a'>info@blueexpress.com</a></li>
                         </ul>
                     </div>
                 </div>
