@@ -14,8 +14,8 @@ function About() {
                         <p className='header-text'>About us</p>
                         <ul >
                             <li className="mb-2"><a href="/" className='a'>Terms & Conditions</a></li>
-                            <li className="mb-2"><a href="/docs/5.0/" className='a'>Help</a></li>
-                            <li className="mb-2"><a href="/docs/5.0/examples/" className='a'>How it works</a></li>
+                            <li className="mb-2"><a href="/" className='a'>Help</a></li>
+                            <li className="mb-2"><a href="/" className='a'>How it works</a></li>
                         </ul>
                     </div>
                     <div className="col-6 col-lg-2 mb-3">
@@ -37,7 +37,7 @@ function About() {
                         <p className='header-text'>Contact us</p>
                         <ul >
                             <li className="mb-2"><a href="/" className='a'>+260</a></li>
-                            <li className="mb-2"><a href="/" className='a'>info@blueexpress.com</a></li>
+                            <li className="mb-2"><a href="/" className='a'>Email us</a></li>
                         </ul>
                     </div>
                 </div>

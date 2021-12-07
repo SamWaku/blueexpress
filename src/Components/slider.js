@@ -10,6 +10,7 @@ import './slider.css'
 function Slider() {
     return (
         <div className='container-fluid'>
+            <br />
             <div className='container'>
                 <Carousel>
                     <Carousel.Item>
